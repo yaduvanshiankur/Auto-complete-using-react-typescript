@@ -80,8 +80,11 @@ Ans.
 The key difference in handling exceptions are:
 
 > Promises and async/await offer a more structured and readable way of handling asynchronous code compared to callbacks, which can lead to "callback hell" or deeply nested code.
+
 > With async/await, error handling follows the familiar try-catch pattern, making it easier to handle synchronous and asynchronous errors together.
+
 > Promises and async/await handle errors individually at each level of the code, whereas with callbacks, error handling is done at the time the callback is invoked.
+
 > Async/await is built on top of Promises, making it more powerful and easier to integrate with existing Promise-based code.
 
 Overall, async/await is generally considered the preferred approach for handling asynchronous operations in modern JavaScript, as it provides better readability and maintainability compared to callbacks and also avoids some of the complexities of Promise chaining.
